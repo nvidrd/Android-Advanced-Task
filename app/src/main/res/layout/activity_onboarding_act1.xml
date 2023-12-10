@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardingAct1">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/employee1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Selamat Datang di Notes Lite"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:text="Manfaatkan teknologi untuk menyimpan catatan Anda di mana saja."
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/btnNext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/orangeold"
+        android:text="Next" />
+
+</LinearLayout>
